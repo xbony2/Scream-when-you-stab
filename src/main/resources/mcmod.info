@@ -1,0 +1,15 @@
+[{
+  "modid" : "bonyscream",
+  "name" : "Scream when you stab!",
+  "version" : "1.0.0a",
+  "credits" : "xbony2",
+  "authors" : [
+      "xbony2" 
+     ],
+  "descripion" : "You can now SCREAM when you stab yourself",
+  "url" : "",
+  "updateUrl" : "",
+  "logoFile" : "",
+  "parent" : "",
+  "screenshots" : []
+  }]   
