@@ -1,7 +1,6 @@
 package screamMod.net.screamMod;
 
 import net.minecraftforge.common.MinecraftForge;
-import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -22,7 +21,6 @@ public class screamMod {
 	@EventHandler
 	public void load(FMLInitializationEvent event){
 		
-		//FMLCommonHandler.instance().bus().register(new stabEvent());
 		MinecraftForge.EVENT_BUS.register(new stabEvent());
 	}
 }
